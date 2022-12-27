@@ -1,10 +1,14 @@
 import './App.css';
+import Box from '@mui/material/Box';
+import colors from './components/colors'
+import Layout from './components/Layout'
+import Info from './pages/Info'
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">I am writing my Portfolio.</h1>
-    </div>
+    <Layout>
+      <Info />
+    </Layout>
   );
 }
 
